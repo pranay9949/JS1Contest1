@@ -92,7 +92,12 @@ function sortByAge() {
 
 // 9. Update Profession
 function updateJohnsProfession() {
-  data[0].profession="manager";
+  for(let i of data){
+    if(
+  data[i].name="john"){
+    dats[i].profession="manager";
+  }
+  }
   console.log(data);
 }
 
